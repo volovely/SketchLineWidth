@@ -1,2 +1,2 @@
 # SketchLineWidth
-Small guide how to convert sketch LineWidth to iOS NSAttributedString
+Small example how to convert Sketch LineWidth to iOS NSAttributedString
