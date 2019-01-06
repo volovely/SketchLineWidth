@@ -10,6 +10,6 @@ import UIKit
 
 class SketchParagraphStyle: NSMutableParagraphStyle {
     func setSketchLineWidth(with font: UIFont, sketch lineWidth: CGFloat){
-        lineSpacing = lineWidth - font.lineHeight
+        lineHeightMultiple = lineWidth / font.lineHeight
     }
 }
